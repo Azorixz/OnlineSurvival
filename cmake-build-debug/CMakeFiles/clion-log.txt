@@ -1,0 +1,5 @@
+"F:\Program Files (x86)\JetBrains\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" E:\PR\OnlineSurvival
+-- Found SFML 2.4.2 in E:/biblioteki/SFML-2.4.2/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: E:/PR/OnlineSurvival/cmake-build-debug

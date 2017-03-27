@@ -1,0 +1,3 @@
+"F:\Program Files (x86)\JetBrains\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\OnlineSurvival.dir/objects.a
+E:\mingw\bin\ar.exe cr CMakeFiles\OnlineSurvival.dir/objects.a @CMakeFiles\OnlineSurvival.dir\objects1.rsp
+E:\mingw\bin\g++.exe  -g   -Wl,--whole-archive CMakeFiles\OnlineSurvival.dir/objects.a -Wl,--no-whole-archive  -o OnlineSurvival.exe -Wl,--out-implib,libOnlineSurvival.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\OnlineSurvival.dir\linklibs.rsp

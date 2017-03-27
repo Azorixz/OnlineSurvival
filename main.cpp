@@ -3,10 +3,10 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-    
 
     sf::Window App(sf::VideoMode(800, 600), "myproject");
 
+    
     while (App.isOpen()) {
         sf::Event Event;
         while (App.pollEvent(Event)) {

@@ -3,8 +3,7 @@
 using namespace std;
 
 int main(int argc, char* argv[]) {
-
-    /* Code adapted from the SFML 2 "Window" example */
+    
 
     sf::Window App(sf::VideoMode(800, 600), "myproject");
 

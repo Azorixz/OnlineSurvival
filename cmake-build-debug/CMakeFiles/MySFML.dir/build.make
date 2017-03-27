@@ -81,14 +81,68 @@ CMakeFiles/MySFML.dir/main.cpp.obj.provides: CMakeFiles/MySFML.dir/main.cpp.obj.
 CMakeFiles/MySFML.dir/main.cpp.obj.provides.build: CMakeFiles/MySFML.dir/main.cpp.obj
 
 
+CMakeFiles/MySFML.dir/Mapa.cpp.obj: CMakeFiles/MySFML.dir/flags.make
+CMakeFiles/MySFML.dir/Mapa.cpp.obj: CMakeFiles/MySFML.dir/includes_CXX.rsp
+CMakeFiles/MySFML.dir/Mapa.cpp.obj: ../Mapa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\PR\OnlineSurvival\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MySFML.dir/Mapa.cpp.obj"
+	E:\mingw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MySFML.dir\Mapa.cpp.obj -c E:\PR\OnlineSurvival\Mapa.cpp
+
+CMakeFiles/MySFML.dir/Mapa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MySFML.dir/Mapa.cpp.i"
+	E:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\PR\OnlineSurvival\Mapa.cpp > CMakeFiles\MySFML.dir\Mapa.cpp.i
+
+CMakeFiles/MySFML.dir/Mapa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MySFML.dir/Mapa.cpp.s"
+	E:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\PR\OnlineSurvival\Mapa.cpp -o CMakeFiles\MySFML.dir\Mapa.cpp.s
+
+CMakeFiles/MySFML.dir/Mapa.cpp.obj.requires:
+
+.PHONY : CMakeFiles/MySFML.dir/Mapa.cpp.obj.requires
+
+CMakeFiles/MySFML.dir/Mapa.cpp.obj.provides: CMakeFiles/MySFML.dir/Mapa.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/Mapa.cpp.obj.provides.build
+.PHONY : CMakeFiles/MySFML.dir/Mapa.cpp.obj.provides
+
+CMakeFiles/MySFML.dir/Mapa.cpp.obj.provides.build: CMakeFiles/MySFML.dir/Mapa.cpp.obj
+
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj: CMakeFiles/MySFML.dir/flags.make
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj: CMakeFiles/MySFML.dir/includes_CXX.rsp
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj: ../ObiektNaMapie.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\PR\OnlineSurvival\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj"
+	E:\mingw\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MySFML.dir\ObiektNaMapie.cpp.obj -c E:\PR\OnlineSurvival\ObiektNaMapie.cpp
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.i"
+	E:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\PR\OnlineSurvival\ObiektNaMapie.cpp > CMakeFiles\MySFML.dir\ObiektNaMapie.cpp.i
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.s"
+	E:\mingw\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\PR\OnlineSurvival\ObiektNaMapie.cpp -o CMakeFiles\MySFML.dir\ObiektNaMapie.cpp.s
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.requires:
+
+.PHONY : CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.requires
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.provides: CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.provides.build
+.PHONY : CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.provides
+
+CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.provides.build: CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj
+
+
 # Object files for target MySFML
 MySFML_OBJECTS = \
-"CMakeFiles/MySFML.dir/main.cpp.obj"
+"CMakeFiles/MySFML.dir/main.cpp.obj" \
+"CMakeFiles/MySFML.dir/Mapa.cpp.obj" \
+"CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj"
 
 # External object files for target MySFML
 MySFML_EXTERNAL_OBJECTS =
 
 MySFML.exe: CMakeFiles/MySFML.dir/main.cpp.obj
+MySFML.exe: CMakeFiles/MySFML.dir/Mapa.cpp.obj
+MySFML.exe: CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj
 MySFML.exe: CMakeFiles/MySFML.dir/build.make
 MySFML.exe: E:/biblioteki/SFML-2.4.2/lib/libsfml-system-d.a
 MySFML.exe: E:/biblioteki/SFML-2.4.2/lib/libsfml-window-d.a
@@ -98,7 +152,7 @@ MySFML.exe: E:/biblioteki/SFML-2.4.2/lib/libsfml-audio-d.a
 MySFML.exe: CMakeFiles/MySFML.dir/linklibs.rsp
 MySFML.exe: CMakeFiles/MySFML.dir/objects1.rsp
 MySFML.exe: CMakeFiles/MySFML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\PR\OnlineSurvival\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MySFML.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\PR\OnlineSurvival\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable MySFML.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MySFML.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -107,6 +161,8 @@ CMakeFiles/MySFML.dir/build: MySFML.exe
 .PHONY : CMakeFiles/MySFML.dir/build
 
 CMakeFiles/MySFML.dir/requires: CMakeFiles/MySFML.dir/main.cpp.obj.requires
+CMakeFiles/MySFML.dir/requires: CMakeFiles/MySFML.dir/Mapa.cpp.obj.requires
+CMakeFiles/MySFML.dir/requires: CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj.requires
 
 .PHONY : CMakeFiles/MySFML.dir/requires
 

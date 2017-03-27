@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "E:/PR/OnlineSurvival/Mapa.cpp" "E:/PR/OnlineSurvival/cmake-build-debug/CMakeFiles/MySFML.dir/Mapa.cpp.obj"
+  "E:/PR/OnlineSurvival/ObiektNaMapie.cpp" "E:/PR/OnlineSurvival/cmake-build-debug/CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj"
   "E:/PR/OnlineSurvival/main.cpp" "E:/PR/OnlineSurvival/cmake-build-debug/CMakeFiles/MySFML.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

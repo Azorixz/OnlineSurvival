@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/MySFML.dir/main.cpp.obj"
+  "CMakeFiles/MySFML.dir/Mapa.cpp.obj"
+  "CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj"
   "MySFML.pdb"
   "MySFML.exe"
   "MySFML.exe.manifest"

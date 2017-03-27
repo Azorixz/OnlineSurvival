@@ -82,6 +82,18 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="E:/PR/OnlineSurvival/Mapa.cpp">
+			<Option target="MySFML"/>
+		</Unit>
+		<Unit filename="E:/PR/OnlineSurvival/Mapa.h">
+			<Option target="MySFML"/>
+		</Unit>
+		<Unit filename="E:/PR/OnlineSurvival/ObiektNaMapie.cpp">
+			<Option target="MySFML"/>
+		</Unit>
+		<Unit filename="E:/PR/OnlineSurvival/ObiektNaMapie.h">
+			<Option target="MySFML"/>
+		</Unit>
 		<Unit filename="E:/PR/OnlineSurvival/main.cpp">
 			<Option target="MySFML"/>
 		</Unit>

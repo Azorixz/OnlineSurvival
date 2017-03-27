@@ -122,6 +122,60 @@ MySFML/fast:
 	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/build
 .PHONY : MySFML/fast
 
+Mapa.obj: Mapa.cpp.obj
+
+.PHONY : Mapa.obj
+
+# target to build an object file
+Mapa.cpp.obj:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/Mapa.cpp.obj
+.PHONY : Mapa.cpp.obj
+
+Mapa.i: Mapa.cpp.i
+
+.PHONY : Mapa.i
+
+# target to preprocess a source file
+Mapa.cpp.i:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/Mapa.cpp.i
+.PHONY : Mapa.cpp.i
+
+Mapa.s: Mapa.cpp.s
+
+.PHONY : Mapa.s
+
+# target to generate assembly for a file
+Mapa.cpp.s:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/Mapa.cpp.s
+.PHONY : Mapa.cpp.s
+
+ObiektNaMapie.obj: ObiektNaMapie.cpp.obj
+
+.PHONY : ObiektNaMapie.obj
+
+# target to build an object file
+ObiektNaMapie.cpp.obj:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.obj
+.PHONY : ObiektNaMapie.cpp.obj
+
+ObiektNaMapie.i: ObiektNaMapie.cpp.i
+
+.PHONY : ObiektNaMapie.i
+
+# target to preprocess a source file
+ObiektNaMapie.cpp.i:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.i
+.PHONY : ObiektNaMapie.cpp.i
+
+ObiektNaMapie.s: ObiektNaMapie.cpp.s
+
+.PHONY : ObiektNaMapie.s
+
+# target to generate assembly for a file
+ObiektNaMapie.cpp.s:
+	$(MAKE) -f CMakeFiles\MySFML.dir\build.make CMakeFiles/MySFML.dir/ObiektNaMapie.cpp.s
+.PHONY : ObiektNaMapie.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -158,6 +212,12 @@ help:
 	@echo ... MySFML
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Mapa.obj
+	@echo ... Mapa.i
+	@echo ... Mapa.s
+	@echo ... ObiektNaMapie.obj
+	@echo ... ObiektNaMapie.i
+	@echo ... ObiektNaMapie.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

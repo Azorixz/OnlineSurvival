@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #Define sources and executable
 set(EXECUTABLE_NAME "MySFML")
-add_executable(${EXECUTABLE_NAME} main.cpp)
+add_executable(${EXECUTABLE_NAME} main.cpp Mapa.cpp Mapa.h ObiektNaMapie.cpp ObiektNaMapie.h)
 
 
 # Detect and add SFML
